@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html dir="ltr" lang="en-US" class="no-js ie ie6 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 7 ]><html dir="ltr" lang="en-US" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="en-US" class="no-js ie ie8 lte8 lte9"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="en-US" class="no-js ie ie9 lte9"><![endif]-->
+<!--[if IE 10 ]><html dir="ltr" lang="en-US" class="no-js ie ie10 lte10"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Blog Listing</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- ===== Style CSS ===== -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- ===== Responsive CSS ===== -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div class="loading-container" id="loading">
+            <div class="loading-inner">
+                <span class="loading-1"></span>
+                <span class="loading-2"></span>
+                <span class="loading-3"></span>
+            </div>
+        </div>
+        <!-- preloader -->
+
+        <header id="header" class="header style-header-1">
+            <div class="container main-header">
+                <div class="logo">
+                    <a title="Logo" href="home.html"><img src="images/home/logo.png" alt=""></a>
+                </div>
+
+                <div class="header-search-box">
+                    <form class="form-inline">
+                        <div class="form-group form-category">
+                          <select class="select-category">
+                            <option value="0">Category</option>
+                                <option value="1">T-Shirt</option>
+                                <option value="1">Iphone</option>
+                                <option value="1">Ipad</option>
+                                <option value="1">Iphone 7</option>
+                          </select>
+                        </div>
+                        <div class="form-group input-serach">
+                          <input type="text"  placeholder="I'm looking for...">
+                        </div>
+                        <button type="submit" class="pull-right btn-search"><i class="icofont icofont-search"></i></button>
+                    </form>
+                </div>
+
+                <div id="cart-block" class="group-cart">
+                    <span class="btn-cart"><i class="icofont icofont-cart-alt"></i></span>
+                    <span class="text-info">03 items</span>
+                    <span class="btn-arrow"><i class="icofont icofont-square-down"></i></span>
+                    <div class="cart-block">
+                        <div class="cart-block-content">
+                            <div class="cart-block-list">
+                                <ul>
+                                    <li class="product-info">
+                                        <div class="p-left">
+                                            <a href="#">
+                                                <img src="images/home/cart/product1.jpg" alt="product1">
+                                            </a>
+                                        </div>
+                                        <div class="p-right">
+                                            <a class="p-name">Farah Skinny Velvet Blazer</a>
+                                            <p class="p-rice">1 x $12,99</p>
+                                            <a href="#" class="remove_link"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                        </div>
+                                    </li>
+                                    <li class="product-info">
+                                        <div class="p-left">
+                                            <a href="#">
+                                                <img src="images/home/cart/product2.jpg" alt="product2">
+                                            </a>
+                                        </div>
+                                        <div class="p-right">
+                                            <a class="p-name">Fred Perry Polo Shirt</a>
+                                            <p class="p-rice">1 x $12,99</p>
+                                            <a href="#" class="remove_link"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                        </div>
+                                    </li>
+                                    <li class="product-info">
+                                        <div class="p-left">
+                                            <a href="#">
+                                                <img src="images/home/cart/product3.jpg" alt="product3s">
+                                            </a>
+                                        </div>
+                                        <div class="p-right">
+                                            <a class="p-name">Skinny Blazer In Cotton Sateen</a>
+                                            <p class="p-rice">1 x $12,99</p>
+                                            <a href="#" class="remove_link"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="toal-cart">
+                                <a href="">3 other items - See all</a>
+                            </div>
+                            <div class="cart-buttons">
+                                <a href="#" class="btn btn-4e btn-md">Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown register">
+                    <span class="btn-user"><i class="icofont icofont-ui-user"></i></span>
+                    <ul class="my-account mega_dropdown">
+                        <li class="my-style">
+                            LANGUGAGE:                          
+                            <a href="#">GE</a>
+                            <a href="#">RU</a>
+                            <a href="#" class="active">EN</a>
+                        </li>
+                        <li class="my-style">
+                            CURRENCY:
+                            <a href="#">EUR</a>
+                            <a href="#" class="active">USD</a>
+                        </li>
+                        <li class="account-above">
+                            <a href=""><i class="icofont icofont-logout"></i>LOGIN/SIGNUP</a>
+                        </li>
+                        <li class="account-above">
+                            <a href=""><i class="icofont icofont-user-alt-5"></i>MY ACCOUNT</a>
+                        </li>
+                        <li class="account-above">
+                            <a href=""><i class="icofont icofont-cart-alt"></i>MY CART</a>
+                        </li>
+                        <li class="account-above">
+                            <a href=""><i class="icofont icofont-heart-alt"></i>MY WISHLIST</a>
+                        </li>
+                        <li class="account-above">
+                            <a href=""><i class="icofont icofont-verification-check"></i>CHECKOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- END MANIN HEADER -->
+
+            <nav id="mainNav" class="navbar navbar-default navbar-custom nav-top-menu1 mid-header">
+                <div class="container" id="main-menu">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header main-socials">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+                        </button>
+                        <div class="socials">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div><!-- /socials -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse menu menu-white" id="bs-example-navbar-collapse-1">
+                        <div class="text-center logo-menu">
+                            <a title="Logo" href="home.html"><img src="images/home/logo.png" alt="Logo"></a>
+                        </div>
+                        <ul class="nav navbar-nav navbar-left">
+                            <li class="level0 parent">
+                                <a class="" href="#HOME">HOME</a>
+                                <ul class="level0 submenu submenu-white">
+                                    <li class="level1"><a href="home.html">Index Basic v1</a></li>
+                                    <li class="level1"><a href="home2.html">Index Basic v2</a></li>
+                                    <li class="level1"><a href="home3.html">Index Creative</a></li>
+                                    <li class="level1"><a href="home4.html">Index Boxed</a></li>
+                                    <li class="level1"><a href="home5.html">Index_Sidebar v1</a></li>
+                                    <li class="level1"><a href="home6.html">Index Sidebar v2</a></li>
+                                    <li class="level1"><a href="home7.html">Index Simple v1</a></li>
+                                    <li class="level1"><a href="home8.html">Index Simple v2</a></li>
+                                    <li class="level1"><a href="home9.html">Index Banner</a></li>
+                                    <li class="level1"><a href="home10.html">Index Full Width v1</a></li>
+                                    <li class="level1"><a href="home11.html">Index Slide v01</a></li>
+                                    <li class="level1"><a href="home12.html">Index Slide v2</a></li>
+                                </ul>
+                            </li><!-- END MENU HOME -->
+                            <li class="level0 parent">
+                                <a href="#">SHOP</a>
+                                <ul class="level0 submenu submenu-white">
+                                    <li class="level1 parent"><a href="category_grid.html">Category Grid</a>
+                                        <ul class="level1 submenu submenu-white">
+                                            <li><a href="product_detail.html">Product Detail</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1 parent"><a href="category_grid_left_sidebar.html">Category Grid Left Sidebar</a>
+                                        <ul class="level1 submenu submenu-white">
+                                            <li><a href="product_detail_left_Sidebar.html">Product Detail Left Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1 parent"><a href="category_grid_right_sidebar.html">Category Grid Right Sidebar</a>
+                                        <ul class="level1 submenu submenu-white">
+                                            <li><a href="product_detail_right_Sidebar.html">Product Detail Right Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1 parent"><a href="category_listing.html">Category Listing</a>
+                                        <ul class="level1 submenu submenu-white">
+                                            <li><a href="product_detail_configurable.html">Product Detail Configurable</a></li>
+                                            <li><a href="product_detail_v2.html">Product Detail V2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1"><a href="category_listing_left_sidebar.html">Category Listing Left Sidebar</a></li>
+                                    <li class="level1"><a href="category_listing_right_sidebar.html">Category Listing Right Sidebar</a></li>
+                                    <li class="level1"><a href="#">Cart</a></li>
+                                </ul>
+                            </li><!-- END MENU SHOP -->
+                            <li class="level0 parent">
+                                <a class="" href="#FUATURES">FUATURES</a>
+                                <ul class="level0 submenu submenu-white">
+                                    <li class="level1"><a href="about.html">About</a></li>
+                                    <li class="level1"><a href="home.html">Menu v1 White</a></li>
+                                    <li class="level1"><a href="home-menu-black.html">Menu v1 Black</a></li>
+                                    <li class="level1"><a href="home-menu-black-top.html">Menu v2</a></li>
+                                    <li class="level1"><a href="home-menu-mega-black.html">Mega Menu v1 Black</a></li>
+                                    <li class="level1"><a href="home-menu-mega-white.html">Mega Menu v2 White</a></li>
+                                </ul>
+                            </li><!-- END MENU BLOG -->
+                            <li><a class="" href="#PORTFOLIO">PORTFOLIO</a></li>
+                            <li class="level0 parent">
+                                <a class="" href="#BLOG">BLOG</a>
+                                <ul class="level0 submenu submenu-white">
+                                    <li class="level1"><a href="blog_listing.html">Blog Listing</a></li>
+                                    <li class="level1"><a href="blog_listing_left_sidebar.html">Blog Listing Left Sidebar</a></li>
+                                    <li class="level1"><a href="blog_listing_right_sidebar.html">Blog Listing Right Sidebar</a></li>
+                                    <li class="level1"><a href="blog_gird_no_sidebar.html">Blog Grid No Sidebar</a></li>
+                                    <li class="level1"><a href="blog_gird_left_sidebar.html">Blog Grid Left Sidebar</a></li>
+                                    <li class="level1"><a href="blog_gird_right_sidebar.html">Blog Grid_Right Sidebar</a></li>
+                                    <li class="level1"><a href="blog_detail.html">Blog Detail</a></li>
+                                </ul>
+                            </li><!-- END MENU BLOG -->
+                            <li><a class="" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav><!-- END NAVIGATION -->
+        </header>
+        <!-- END HEADER -->
+
+        <div class="block-headline-detail">
+            <img src="images/blog/blog.jpg" alt="blog" />
+            <div class="headline-detail container">
+                <p class="page-name">Blog Listing</p>
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Blog Listing</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="blog-view container">
+
+            <div class="blog clearfix">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#All" aria-controls="All" role="tab" data-toggle="tab">All</a></li>
+                    <li role="presentation"><a href="#Lifestyle" aria-controls="Lifestyle" role="tab" data-toggle="tab">Lifestyle</a></li>
+                    <li role="presentation"><a href="#Fashion" aria-controls="Fashion" role="tab" data-toggle="tab">Fashion</a></li>
+                    <li role="presentation"><a href="#Entertainment" aria-controls="Entertainment" role="tab" data-toggle="tab">Entertainment</a></li>
+                    <li role="presentation"><a href="#Celebrities" aria-controls="Celebrities" role="tab" data-toggle="tab">Celebrities</a></li>
+                </ul>
+            </div><!-- Toolbar -->
+
+            <div class="blog grid blog-grid">
+                <div class="product-items row">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="All">
+                            <div class="col-sm-12 col-xs-12">
+                                <div class="blog-news-item blog-new-img">
+                                    <div class="blog-new-item-img">
+                                        <a href="#"><img src="images/blog/blog_listing/listing1.jpg" alt="blog1"></a>
+                                    </div>
+                                    <div class="blog-news-item-title blog-news-item-title-listing row">
+                                        <div class="col-sm-9 col-xs-12 blog-news-item-info">
+                                            <p class="data-post">19 august, 2016</p>
+                                            <h3><a href="#">New Season Fragrance Update</a></h3>
+                                            <div class="blog-new-item-sum">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12 blog-news-button">
+                                            <div class="blog-news-item-btn">
+                                                <a href="#" class="btn btn-2e"><span>Continue Reading <i class="icofont icofont-bubble-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end item -->
+                            <div class="col-sm-12 col-xs-12">
+                                <div class="blog-news-item">
+                                    <div class="blog-new-item-video">
+                                        <a href="#"><img src="images/blog/blog_listing/listing2.jpg" alt="blog1"></a>
+                                    </div>
+                                    <div class="blog-news-item-title blog-news-item-title-listing row">
+                                        <div class="col-sm-9 col-xs-12 blog-news-item-info">
+                                            <p class="data-post">19 august, 2016</p>
+                                            <h3><a href="#">New Season Fragrance Update</a></h3>
+                                            <div class="blog-new-item-sum">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12 blog-news-button">
+                                            <div class="blog-news-item-btn">
+                                                <a href="#" class="btn btn-2e"><span>Continue Reading <i class="icofont icofont-bubble-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end item -->
+                            <div class="col-sm-12 col-xs-12">
+                                <div class="blog-news-item">
+                                    <div class="blog-new-item-slide">
+                                        <ul class="owl-carousel dotsData" data-nav="true" data-dots="false" data-margin="0" data-items='1' data-autoplayTimeout="700" data-autoplay="true" data-loop="false">
+                                            <li class="item"><img src="images/blog/blog_listing/listing3.jpg" alt="blog1"></li>
+                                            <li class="item"><img src="images/blog/blog_listing/listing1.jpg" alt="blog1"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog-news-item-title blog-news-item-title-listing row">
+                                        <div class="col-sm-9 col-xs-12 blog-news-item-info">
+                                            <p class="data-post">19 august, 2016</p>
+                                            <h3><a href="#">New Season Fragrance Update</a></h3>
+                                            <div class="blog-new-item-sum">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12 blog-news-button">
+                                            <div class="blog-news-item-btn">
+                                                <a href="#" class="btn btn-2e"><span>Continue Reading <i class="icofont icofont-bubble-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end item -->
+                            <div class="col-sm-12 col-xs-12">
+                                <div class="blog-jumbotron">
+                                    <p>
+                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim tveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                    <p class="blog-author-qoute">
+                                        <span class="author">Lukas Klima</span> - <span class="nation">Czech republic</span>
+                                    </p>
+                                </div>                                  
+                            </div>
+                            <div class="col-sm-12 col-xs-12">
+                                <div class="blog-news-item blog-new-img">
+                                    <div class="blog-new-item-img">
+                                        <a href="#"><img src="images/blog/blog_listing/listing5.jpg" alt="blog1"></a>
+                                    </div>
+                                    <div class="blog-news-item-title blog-news-item-title-listing row">
+                                        <div class="col-sm-9 col-xs-12 blog-news-item-info">
+                                            <p class="data-post">19 august, 2016</p>
+                                            <h3><a href="#">New Season Fragrance Update</a></h3>
+                                            <div class="blog-new-item-sum">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12 blog-news-button">
+                                            <div class="blog-news-item-btn">
+                                                <a href="#" class="btn btn-2e"><span>Continue Reading <i class="icofont icofont-bubble-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end item -->
+                        </div><!-- end All -->
+                        <div role="tabpanel" class="tab-pane" id="Lifestyle">Lifestyle</div><!-- end Lifestyle -->
+                        <div role="tabpanel" class="tab-pane" id="Fashion">Fashion</div><!-- end Fashion -->
+                        <div role="tabpanel" class="tab-pane" id="Entertainment">Entertainment</div><!-- end Entertainment -->
+                        <div role="tabpanel" class="tab-pane" id="Celebrities">Celebrities</div><!-- end Celebrities -->
+                    </div>
+                    
+                </div><!-- product-items -->
+            </div> <!-- products grid products-grid -->
+
+            <div class="pagination-custom">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" >
+                            <span><i class="icofont icofont-bubble-left"></i> Previous</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">...</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#" >
+                        <span>Next <i class="icofont icofont-bubble-right"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- Toolbar -->
+
+        </div><!-- product-view containern -->
+
+        <footer class="footer style-footer-1">
+            <div class="container">
+                <div class="content-footer">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-5 logo-socials">
+                                    <img class="logo-footer" src="images/home/footer/logo-footer.png" alt="">
+                                    <ul class="socials-footer">
+                                        <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i>Google Plus</a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-8 col-sm-6 col-xs-7 block-about-us">
+                                    <p class="block-title">ABOUT US</p>
+                                    <p class="about-us-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                    <a href="#" class="btn btn-1e">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-4 contact-info">
+                                    <p class="block-title">INFORMATION</p>
+                                    <ul class="menu-infomation">
+                                        <li><a href="#">My Account</a></li>
+                                        <li><a href="#">Information</a></li>
+                                        <li><a href="#">Shipping &amp; Returns</a></li>
+                                        <li><a href="#">My Cart</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Our Terms</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-8 col-sm-6 col-xs-8 contact-newletters">
+                                    <p class="block-title">SINGUP FOR NEWLETTERS</p>
+                                    <p class="about-us-content">Signup to receive our amazing deals &amp; offers directly to your inbox</p>
+                                    <form action="#" class="search-bottom">
+                                        <input type="text" placeholder="Enter your email address...">
+                                        <a href="#" class="btn btn-1e">SUBCSRIBE</a>    
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright-payments">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12 copyright">
+                            <p>2016 &copy; Copyright by - All rights reserved.</p>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 payments">
+                            <ul class="payment-item">
+                                <li><i class="icofont icofont-visa"></i></li>
+                                <li><i class="icofont icofont-paypal"></i></li>
+                                <li><i class="icofont icofont-skrill"></i></li>
+                                <li><i class="icofont icofont-discover"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+        
+        <a id="return-to-top" class="td-scroll-up" href="javascript:void(0)">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+        <!-- RETURN TO TOP -->
+    </div>
+    <!-- END WRAPPER -->
+
+    <!-- ===== JS ===== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- JS WOW -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- sticky -->
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+
+    <!-- JS Owl.carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+
+    <!-- Js Common -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
