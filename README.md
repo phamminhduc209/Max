@@ -16,4 +16,4 @@ Made with [HTML, CSS, JS]
 - Hosted at firebase hosting
 - URL: https://codersx-tokyo-demomax.web.app/
 
-# This is a freelance project I have done for clients.
+This is a freelance project I have done for clients.
