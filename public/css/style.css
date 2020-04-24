@@ -7491,6 +7491,10 @@ ul.ui-categori li:last-child>a {
   overflow-y: auto;
   margin-bottom: 98px;
 }
+.products.products-grid .product-items {
+  height: auto;
+  overflow-y: inherit;
+}
 
 /* Style Scroll Bar */
 .product-items::-webkit-scrollbar-track {
