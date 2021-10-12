@@ -14,6 +14,6 @@ Made with [HTML, CSS, JS]
 # Firebase hosting
 
 - Hosted at firebase hosting
-- URL: https://codersx-tokyo-demomax.web.app/
+- URL: https://max-24042020.web.app
 
 This is a freelance project I have done for clients.
